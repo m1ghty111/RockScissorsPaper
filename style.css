@@ -1,0 +1,81 @@
+
+body{
+    font-family: 'Big Shoulders Display';
+    background: linear-gradient(#e66465, #9198e5);
+    background-attachment: fixed;
+    background-position: 50%;
+    background-size: cover;
+}
+
+#content{
+    height: calc(100vh - 5em);
+}
+
+#btn-1{
+    background-image: url("rock.jpg");
+    width: 300px;
+    height: 300px;
+    background-repeat: none;
+    background-size: cover;
+    color: red;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+#btn-2{
+    background-image: url("scissors.jpg");
+    width: 300px;
+    height: 300px;
+    background-repeat: none;
+    background-size: cover;
+    color: red;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+#btn-3{
+    background-image: url("paper.jpg");
+    width: 300px;
+    height: 300px;
+    background-repeat: none;
+    background-size: cover;
+    color: red;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+#container2 {
+    text-align: center;
+    margin: auto;
+}
+
+
+#rs{
+    background-image: url("ResButton.png");
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: none;
+    outline:none;
+}
+
+#results{
+    font-size: 35px;
+    text-align: center;
+    margin: 3mm;
+}
+
+#DisScore{
+    display: flex;
+    justify-content: space-between;
+    font-size: 45px;
+    margin-right: 160px;
+    margin-left: 160px;
+}
